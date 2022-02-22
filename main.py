@@ -30,7 +30,7 @@ async def mp3(bot, message):
     
     # convert to audio
     await txt.edit_text("Converting to audio")
-    await message.reply_audio(audio=file_path, caption="@BugHunterBots", quote=True)
+    await message.reply_audio(audio=file_path, caption="@jetbots", quote=True)
     
     # remove file
     try:
